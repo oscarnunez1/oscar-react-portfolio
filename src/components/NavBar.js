@@ -1,5 +1,6 @@
 import { Navbar, Nav, Container } from "react-bootstrap"
 import { useState, useEffect } from "react"
+import logo from "../assets/img"
 
 export const NavBar = () => {
 
