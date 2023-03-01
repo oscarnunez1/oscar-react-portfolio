@@ -3,8 +3,9 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css"
 import javascript from "../assets/icons/javascript.svg"
 import css from "../assets/icons/css.svg"
-import meter3 from "../assets/images/meter3.svg"
-import colorSharp from "../assets/images/color-sharp.png"
+import html from "../assets/icons/html.svg"
+import express from "../assets/icons/express.svg"
+import nodejs from "../assets/icons/nodejs.svg"
 import background from "../assets/images/subtle-prism.svg"
 
 export const Skills = () => {
@@ -52,8 +53,12 @@ export const Skills = () => {
                   <h5>HTML</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="web-dev" />
-                  <h5>Web Development</h5>
+                  <img src={express} alt="express-icon" />
+                  <h5>Express</h5>
+                </div>
+                <div className="item">
+                  <img src={nodejs} alt="nodejs-icon" />
+                  <h5>Node JS</h5>
                 </div>
               </Carousel>
             </div>
