@@ -1,8 +1,8 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css"
-import meter1 from "../assets/images/meter1.svg"
-import meter2 from "../assets/images/meter2.svg"
+import javascript from "../assets/icons/javascript.svg"
+import css from "../assets/icons/css.svg"
 import meter3 from "../assets/images/meter3.svg"
 import colorSharp from "../assets/images/color-sharp.png"
 import background from "../assets/images/subtle-prism.svg"
@@ -40,16 +40,16 @@ export const Skills = () => {
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
                 <div className="item">
-                  <img src={meter1} alt="web-dev" />
-                  <h5>Web Development</h5>
+                  <img src={javascript} alt="javascript-icon" />
+                  <h5>Javascript</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="brand-identity" />
-                  <h5>Brand Identity</h5>
+                  <img src={css} alt="css-icon" />
+                  <h5>CSS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="logo-design" />
-                  <h5>Logo Design</h5>
+                  <img src={html} alt="html-icon" />
+                  <h5>HTML</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="web-dev" />

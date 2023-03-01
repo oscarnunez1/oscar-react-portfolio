@@ -13,6 +13,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
+  background-image: url("../src/assets/images/subtle-prism.svg");
   background-color: lightslategrey !important;
   color: black !important;
   font-family: 'Centra', sans-serif !important;
