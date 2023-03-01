@@ -234,12 +234,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;;
 }
 
-.skills-bx {
+.skill-bx {
   background: #151515;
-  border-radius: 64px;
+  border-radius: 32px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  color: white;
 }
 
 .skill h5 {
