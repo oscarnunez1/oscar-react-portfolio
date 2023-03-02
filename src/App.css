@@ -243,6 +243,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: white;
 }
 
+.skill h2 {
+  font-size: 45px;
+}
+
 .skill h5 {
   font-size: 45px;
   font-weight: 700;
@@ -407,6 +411,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+  color: white;
 }
 .project p {
   color: #B8B8B8;
