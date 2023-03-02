@@ -1,7 +1,15 @@
 import { Alert } from "bootstrap"
+import { useState } from "react"
 import { Col, Row } from "react-bootstrap"
 
+const handleSubmit = () => {
+
+}
+
 export const Newsletter = ({ subscribe, status, message }) => {
+
+  const [email, setEmail] = useState('')
+
   return (
     <Col lg={12}>
       <div className="newsletter-bx">
@@ -11,6 +19,14 @@ export const Newsletter = ({ subscribe, status, message }) => {
             {status === 'sending' && <Alert>Sending...</Alert>}
             {status === 'error' && <Alert variant="danger">{message}</Alert>}
             {status === 'success' && <Alert variant="success">{message}</Alert>}
+          </Col>
+          <Col md={6} xl={7}>
+            <form onSubmit={handleSubmit}>
+              <div className="new-email-bx">
+                <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
+                <button type="submit">Submit</button>
+              </div>
+            </form>
           </Col>
         </Row>
       </div>
