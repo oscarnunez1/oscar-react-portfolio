@@ -1,5 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import imageOne from '../assets/images/connectfour.png'
+import imageTwo from '../assets/images/cityscape.png'
+import imageThree from '../assets/images/pix.png'
+import imageFour from '../assets/images/flavorite.png'
+import imageFive from '../assets/images/tictactoe.png'
 // import image for rightside background behind ProjectCard here
 
 export const Projects = () => {
@@ -8,32 +13,27 @@ export const Projects = () => {
     {
       title: "Project Title 1",
       description: "Product Description",
-      imgUrl: "Product Image",
+      imgUrl: imageOne,
     },
     {
       title: "Project Title 2",
       description: "Product Description",
-      imgUrl: "Product Image",
+      imgUrl: imageTwo,
     },
     {
       title: "Project Title 3",
       description: "Product Description",
-      imgUrl: "Product Image",
+      imgUrl: imageThree,
     },
     {
       title: "Project Title 4",
       description: "Product Description",
-      imgUrl: "Product Image",
+      imgUrl: imageFour,
     },
     {
       title: "Project Title 5",
       description: "Product Description",
-      imgUrl: "Product Image",
-    },
-    {
-      title: "Project Title 6",
-      description: "Product Description",
-      imgUrl: "Product Image",
+      imgUrl: imageFive,
     },
   ]
 
