@@ -17,6 +17,13 @@ export const Contact = () => {
   const [buttonText, setButtonText] = useState('Send')
   const [status, setStatus] = useState({})
 
+  const onFormUpdate = (category, value) => {
+    setFormDetails({
+      ...formDetails,
+      [category]: value
+    })
+  }
+
   return (
     <section className="contact" id="connect">
       <Container>
@@ -29,7 +36,7 @@ export const Contact = () => {
             <form>
               <Row>
                 <Col sm={6} className="px-1">
-                  <input type="text" value={formDetails.firstName} placeholder="FIrst Name" />
+                  <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
                 </Col>
                 <Col sm={6} className="px-1"></Col>
               </Row>
