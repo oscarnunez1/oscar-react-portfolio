@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/images/code-solid.svg';
 import linkedinIcon from '../assets/icons/linkedin.svg';
-import githubIcon from '../assets/images/github.svg';
-import emailIcon from '../assets/images/email.svg';
+import githubIcon from '../assets/icons/github.svg';
+import fileIcon from '../assets/icons/file-icon.svg';
 
 export const NavBar = () => {
 
@@ -47,7 +47,7 @@ export const NavBar = () => {
             <div className="social-icon">
               <a href="/"><img src={linkedinIcon} alt="" /></a>
               <a href="/"><img src={githubIcon} alt="" /></a>
-              <a href="/"><img src={emailIcon} alt="" /></a>
+              <a href="/"><img src={fileIcon} alt="" /></a>
             </div>
           </span>
         </Navbar.Collapse>
