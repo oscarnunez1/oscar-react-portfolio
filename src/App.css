@@ -13,8 +13,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-image: url("../src/assets/images/subtle-prism.svg");
-  background-color: lightslategrey !important;
+  /* background-image: url("../src/assets/images/subtle-prism.svg"); */
+  background-color: lightgray !important;
   color: black !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -84,7 +84,7 @@ nav.navbar a.navbar-brand {
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
-  color: #fff !important;
+  color: black !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -262,6 +262,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 
+.skill-link {
+  text-decoration: none;
+  color: white;
+}
+
+.skill-link:hover {
+  color: white;
+}
+
 .skill-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
@@ -273,8 +282,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   width: 40%;
   z-index: -4;
-}
 
+}
 
 /************ App Css ************/
 
@@ -321,7 +330,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/images/subtle-prism.svg');
+  /* background-image: url('./assets/images/subtle-prism.svg'); */
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -337,7 +346,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -345,7 +354,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #121212;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;

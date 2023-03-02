@@ -7,6 +7,7 @@ import html from "../assets/icons/html.svg"
 import express from "../assets/icons/express.svg"
 import nodejs from "../assets/icons/nodejs.svg"
 import background from "../assets/images/subtle-prism.svg"
+import postgresql from "../assets/icons/postgresql.svg"
 
 export const Skills = () => {
   const responsive = {
@@ -41,6 +42,12 @@ export const Skills = () => {
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
                 <div className="item">
+                  <a href="https://www.postgresql.org/" className="skill-link">
+                    <img src={postgresql} alt="postgresql-icon" />
+                    <h5>PostgreSQL</h5>
+                  </a>
+                </div>
+                <div className="item">
                   <img src={javascript} alt="javascript-icon" />
                   <h5>Javascript</h5>
                 </div>
@@ -65,7 +72,7 @@ export const Skills = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left"  src={background} alt="color-sharp" />
+      <img className="background-image-left"  src={"background"} alt="color-sharp" />
     </section>
   )
 }
