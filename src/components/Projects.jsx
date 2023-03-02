@@ -11,27 +11,27 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Project Title 1",
+      title: "Connect Four",
       description: "Product Description",
       imgUrl: imageOne,
     },
     {
-      title: "Project Title 2",
+      title: "Cityscape Social",
       description: "Product Description",
       imgUrl: imageTwo,
     },
     {
-      title: "Project Title 3",
+      title: "Pix",
       description: "Product Description",
       imgUrl: imageThree,
     },
     {
-      title: "Project Title 4",
+      title: "Flavorite",
       description: "Product Description",
       imgUrl: imageFour,
     },
     {
-      title: "Project Title 5",
+      title: "Tic-Tac-Typsecript",
       description: "Product Description",
       imgUrl: imageFive,
     },
@@ -45,7 +45,7 @@ export const Projects = () => {
             <h2>Projects</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, inventore vitae eligendi accusantium, numquam nam voluptas qui blanditiis id odit laudantium ad libero ipsam. Repudiandae dignissimos exercitationem minima expedita labore?</p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">               
-              <Nav variant="pills" defaultActiveKey="/home">
+              <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                 <Nav.Item>
                   <Nav.Link eventKey="first">Tab One</Nav.Link>
                 </Nav.Item>
