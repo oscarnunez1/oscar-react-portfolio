@@ -1,5 +1,6 @@
-
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { ProjectCard } from "./ProjectCard";
+// import image for rightside background behind ProjectCard here
 
 export const Projects = () => {
 
@@ -61,7 +62,10 @@ export const Projects = () => {
                     {
                       projects.map((project, index) => {
                         return (
-                          <p>{project.title}</p>
+                          <ProjectCard
+                            key={index}
+                            {...project}
+                          />
                         )
                       })
                     }
@@ -74,7 +78,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-
+      {/* <img className="background-image-right"  src={"background"} alt="color-sharp" /> */}
     </section>
   )
 
