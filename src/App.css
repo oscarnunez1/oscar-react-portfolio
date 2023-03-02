@@ -344,6 +344,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
+  border-radius: 4px;
 }
 .banner h1 {
   font-size: 30px;
@@ -364,7 +365,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #fff;
   font-weight: 700;
   font-size: 20px;
-  margin-top: 60px;
+  margin-top: 40px;
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
@@ -445,6 +446,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
+    /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
     background: linear-gradient(90.21deg, #b0c4de -5.91%, #778899 111.58%);
     top: 0;
     left: 0;
