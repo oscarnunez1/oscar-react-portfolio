@@ -6,7 +6,6 @@ import css from "../assets/icons/css.svg"
 import html from "../assets/icons/html.svg"
 import express from "../assets/icons/express.svg"
 import nodejs from "../assets/icons/nodejs.svg"
-import background from "../assets/images/subtle-prism.svg"
 import postgresql from "../assets/icons/postgresql.svg"
 
 export const Skills = () => {
@@ -72,7 +71,6 @@ export const Skills = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left"  src={"background"} alt="color-sharp" />
     </section>
   )
 }

@@ -14,16 +14,16 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <Container>
-        <Row>
+        <Row className="align-items-center">
           <MailchimpForm />
-          <Col sm={6}>
-            <img src={logo} alt="Logo" />
+          <Col size={12}sm={6}>
+            <img src={logo} alt="Logo" className="float-start" />
           </Col>
-          <Col sm={6} className="text-center text-sm-end">
+          <Col size={12}sm={6} className="text-center text-sm-end">
             <div className="social-icon">
               <a href={linkedInProfile}><img src={linkedinIcon} alt="Linkedin" /></a>
               <a href={gitHubAccount}><img src={githubIcon} alt="GitHub" /></a>
-              <a href={resumeLink}><img src={resumeIcon} alt="Resume" /></a>
+              <a href={resumeLink} download><img src={resumeIcon} alt="Resume" /></a>
             </div>
             <p>Copyright 2023. All Rights Reserved</p>
           </Col>
