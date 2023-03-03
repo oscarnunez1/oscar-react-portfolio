@@ -3,7 +3,11 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/images/code-solid.svg';
 import linkedinIcon from '../assets/icons/linkedin.svg';
 import githubIcon from '../assets/icons/github.svg';
-import fileIcon from '../assets/icons/file-icon.svg';
+import resumeIcon from '../assets/icons/resume.svg';
+import resumeLink from "../assets/docs/oscar-nunez-resume.pdf"
+
+const linkedInProfile = "https://www.linkedin.com/in/oscarnunez34/"
+const gitHubAccount = "https://github.com/oscarnunez1"
 
 export const NavBar = () => {
 
@@ -45,9 +49,9 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="/"><img src={linkedinIcon} alt="" /></a>
-              <a href="/"><img src={githubIcon} alt="" /></a>
-              <a href="/"><img src={fileIcon} alt="" /></a>
+              <a href={linkedInProfile}><img src={linkedinIcon} alt="Linkedin" /></a>
+              <a href={gitHubAccount}><img src={githubIcon} alt="GitHub" /></a>
+              <a href={resumeLink} download><img src={resumeIcon} alt="Resume" /></a>
             </div>
           </span>
         </Navbar.Collapse>

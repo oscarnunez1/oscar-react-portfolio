@@ -5,7 +5,6 @@ import imageTwo from '../assets/images/cityscape.png'
 import imageThree from '../assets/images/pix.png'
 import imageFour from '../assets/images/flavorite.png'
 import imageFive from '../assets/images/tictactoe.png'
-// import image for rightside background behind ProjectCard here
 
 export const Projects = () => {
 
@@ -38,7 +37,7 @@ export const Projects = () => {
   ]
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col>
