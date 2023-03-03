@@ -295,6 +295,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: 200px;
 }
 .newsletter-bx {
   background: #FFFFFF;
@@ -307,7 +308,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .newsletter-bx h3 {
   font-weight: 700;
   letter-spacing: 0.5px;
-  line-height: 1.2em;
+  line-height: 2em;
+  vertical-align: middle;
 }
 .new-email-bx {
   background: #fff;
@@ -350,11 +352,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .new-email-bx button {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 20px 65px;
+  padding: 10px 20px;
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.5px;
   border-radius: 18px;
+  height: inherit;
 }
 .footer img {
   width: 26%;
