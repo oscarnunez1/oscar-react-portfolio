@@ -52,7 +52,7 @@ export const Banner = () => {
             <Image src={profilePhoto} roundedCircle className="profile-photo mb-7"/>
             <h1 className="mb-5">{`Hey There! I'm `}<span className="wrap">{text}</span></h1>
             <span className="tagline">Welcome to my Portfolio</span>
-            <p>Full-stack software developer with a diverse background in architectural photography, journalism, and social media marketing. Passionate about applying creativity and technology to create innovative, user-friendly applications that solve real-world problems. Collaborative team player with excellent problem-solving abilities. Committed to staying up-to-date with the latest industry trends and continuously improving skills. Ready to bring unique perspectives and fresh ideas to new projects.</p>
+            <p>Full-stack software developer with a diverse background in architectural/construction photography, journalism, and social media marketing. Passionate about applying creativity and technology to create innovative, user-friendly applications that solve real-world problems. Collaborative team player with excellent problem-solving abilities. Committed to staying up-to-date with the latest industry trends and continuously improving skills. Ready to bring unique perspectives and fresh ideas to new projects.</p>
             <a href={linkedInProfile} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none'}}><button className="mx-auto" onClick={() => console.log('connect')}>Let's Connect On LinkedIn<ArrowRightCircle size={30} /></button></a>
           </Col>
         </Row>
