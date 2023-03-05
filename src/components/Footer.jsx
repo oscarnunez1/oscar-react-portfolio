@@ -1,5 +1,4 @@
 import { Col, Container, Row } from "react-bootstrap"
-import { MailchimpForm } from "./MailchimpForm"
 import linkedinIcon from '../assets/icons/linkedin.svg';
 import githubIcon from '../assets/icons/github.svg';
 import resumeIcon from '../assets/icons/resume.svg'
@@ -14,7 +13,6 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="footer-row">
-          <MailchimpForm />
           <Col className="text-center">
             <div className="social-icon">
               <a href={linkedInProfile}><img src={linkedinIcon} alt="Linkedin" /></a>
