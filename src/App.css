@@ -303,7 +303,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill button {
-  margin: -3rem;
+  margin: -1rem;
 }
 
 /************ Footer Css ************/
@@ -594,6 +594,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .profile-photo {
   width: 350px;
   height: 350px;
+  clip-path: circle(20% at cent);
   object-fit: cover;
   transition: transform 0.5s ease;
 }
