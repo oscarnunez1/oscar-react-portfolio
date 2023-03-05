@@ -6,9 +6,9 @@ import { ArrowRightCircle } from "react-bootstrap-icons"
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0)
   const [isDeleting, setIsDeleting] = useState(false)
-  const toRotate = ["Full-Stack Software Developer"]
+  const toRotate = ["Oscar Nunez"]
   const [text, setText] = useState('')
-  const [delta, setDelta] = useState(300 - Math.random() * 100)
+  const [delta, setDelta] = useState(50)
   const period = 2000
 
   useEffect(() => {
@@ -27,7 +27,7 @@ export const Banner = () => {
     setText(updatedText)
 
     if (isDeleting) {
-      setDelta(prevDelta => prevDelta /2)
+      setDelta(50)
     }
 
     if (!isDeleting && updatedText === fullText) {
@@ -45,13 +45,10 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={12} xl={12}>
-            <span className="tagline">Welcome to my Portfolio</span>
             <h1>{`Hey There! I'm `}<span className="wrap">{text}</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, inventore vitae eligendi accusantium, numquam nam voluptas qui blanditiis id odit laudantium ad libero ipsam. Repudiandae dignissimos exercitationem minima expedita labore?</p>
-            <button onClick={() => console.log('connect')}>Let's Connect<ArrowRightCircle size={25} /></button>
-          </Col>
-          <Col xs={12} md={6} xl={5}>
-            <img src={""} alt="header-img" />
+            <span className="tagline">Welcome to my Portfolio</span>
+            <p>Full-stack software developer with a diverse background in architectural photography, journalism, and social media marketing. Passionate about applying creativity and technology to create innovative, user-friendly applications that solve real-world problems. Collaborative team player with excellent problem-solving abilities. Committed to staying up-to-date with the latest industry trends and continuously improving skills. Ready to bring unique perspectives and fresh ideas to new projects.</p>
+            <button href=""className="mx-auto" onClick={() => console.log('connect')}>Let's Connect On LinkedIn<ArrowRightCircle size={30} /></button>
           </Col>
         </Row>
       </Container>

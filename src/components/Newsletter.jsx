@@ -2,6 +2,7 @@ import { Alert } from "bootstrap"
 import { useEffect, useState } from "react"
 import { Col, Row } from "react-bootstrap"
 
+
 export const Newsletter = ({ onValidated, status, message }) => {
   const [email, setEmail] = useState('')
 
@@ -23,7 +24,7 @@ export const Newsletter = ({ onValidated, status, message }) => {
   }
 
   return (
-    <Col lg={12}>
+    <Col lg={12} className="d-flex align-items-center justify-content-center">
       <div className="newsletter-bx">
         <Row>
           <Col lg={12} md={6} xl={5}>

@@ -13,7 +13,7 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <Container>
-        <Row className="align-items-center">
+        <Row className="footer-row">
           <MailchimpForm />
           <Col className="text-center">
             <div className="social-icon">

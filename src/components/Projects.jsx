@@ -13,26 +13,31 @@ export const Projects = () => {
       title: "Connect Four",
       description: "Product Description",
       imgUrl: imageOne,
+      githubLink: "https://github.com/oscarnunez1/bitconnect-4"
     },
     {
       title: "Cityscape Social",
       description: "Product Description",
       imgUrl: imageTwo,
+      githubLink: "https://github.com/oscarnunez1/cityscape-social-app"
     },
     {
       title: "Pix",
       description: "Product Description",
       imgUrl: imageThree,
+      githubLink: "https://github.com/CaptMerica/pix-front-end"
     },
     {
       title: "Flavorite",
       description: "Product Description",
       imgUrl: imageFour,
+      githubLink: "https://github.com/oscarnunez1/flavorite-front"
     },
     {
       title: "Tic-Tac-Typsecript",
       description: "Product Description",
       imgUrl: imageFive,
+      githubLink: "https://github.com/oscarnunez1/tic-tac-ts-lab"
     },
   ]
 
@@ -42,7 +47,8 @@ export const Projects = () => {
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, inventore vitae eligendi accusantium, numquam nam voluptas qui blanditiis id odit laudantium ad libero ipsam. Repudiandae dignissimos exercitationem minima expedita labore?</p>
+            <p>Browse through my portfolio of recent web development projects, each showcasing my skills in a range of modern front-end and back-end technologies. Click on each project to learn more about the technologies used, see live demos, and view the Github repository.
+            </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">               
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                 <Nav.Item>
