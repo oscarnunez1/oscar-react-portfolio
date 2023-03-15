@@ -107,10 +107,18 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
   border: 1px solid white;
   border-radius: 8px;
+  padding: 8px;
+}
+
+@media (max-width: 767.98px) {
+  nav.navbar.scrolled .navbar-collapse {
+    background-color: lightslategray;
+  }
 }
 
 span.navbar-text {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -133,13 +141,13 @@ span.navbar-text {
 }
 
 .social-icon a::before {
-    content: "";
-    width: 42px;
-    height: 42px;
-    position: absolute;
-    background-color: #ffffff;
-    border-radius: 50%;
-    transform: scale(0);
+  content: "";
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transform: scale(0);
 	transition: 0.3s ease-in-out;
 }
 
@@ -608,4 +616,73 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .mb-7 {
   margin-bottom: 4rem;
+}
+
+/********** Media Queries **********/
+
+@media (max-width: 767px) {
+  html {
+    scroll-padding-top: 60px;
+  }
+
+  nav.navbar a.navbar-brand {
+    width: 20%;
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+
+  .navbar-text button {
+    font-size: 16px;
+    padding: 12px 24px;
+    margin-left: 12px;
+  }
+
+  .skill h2, .skill h5 {
+    font-size: 30px;
+  }
+
+  .skill p {
+    margin-bottom: 45px;
+  }
+
+  .skills-slider {
+    width: 100%;
+  }
+
+  .footer p {
+    font-size: 16px;
+  }
+
+  .banner h1 {
+    font-size: 24px;
+  }
+
+  .banner p {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .project h2 {
+    font-size: 30px;
+  }
+
+  .project p {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .project .nav.nav-pills {
+    width: 100%;
+  }
+
+  .project .nav.nav-pills .nav-link {
+    font-size: 15px;
+  }
+
+  .proj-txtx h4 {
+    font-size: 24px;
+  }
 }

@@ -28,6 +28,27 @@ export const NavBar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, [])
 
+  useEffect(() => {
+    const onScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+        const navbarToggler = document.querySelector('.navbar-toggler');
+        if (navbarToggler.classList.contains('collapsed')) {
+          return;
+        } else {
+          navbarToggler.click();
+        }
+      } else {
+        setScrolled(false);
+      }
+    }
+  
+    window.addEventListener("scroll", onScroll);
+  
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [])
+  
+
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
   }
@@ -41,7 +62,7 @@ export const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className={scrolled ? "scrolled" : ""}>
           <Nav className="ms-auto">
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
@@ -57,5 +78,5 @@ export const NavBar = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-)
+  );
 }
