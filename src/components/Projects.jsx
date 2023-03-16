@@ -5,7 +5,7 @@ import imageTwo from '../assets/images/cityscape.png'
 import imageThree from '../assets/images/pix.png'
 import imageFour from '../assets/images/flavorite.png'
 import imageFive from '../assets/images/tictactoe.png'
-import imageSix from '../assets/images/job-play-logo.png'
+import imageSix from '../assets/images/job-play.png'
 
 
 
