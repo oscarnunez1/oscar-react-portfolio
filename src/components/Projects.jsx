@@ -5,6 +5,8 @@ import imageTwo from '../assets/images/cityscape.png'
 import imageThree from '../assets/images/pix.png'
 import imageFour from '../assets/images/flavorite.png'
 import imageFive from '../assets/images/tictactoe.png'
+import imageSix from '../assets/images/job-play-logo.png'
+
 
 
 export const Projects = () => {
@@ -44,6 +46,13 @@ export const Projects = () => {
       imgUrl: imageFive,
       githubLink: "https://github.com/oscarnunez1/tic-tac-ts-lab",
       demoLink: "https://tic-tac-toe-types.netlify.app"
+    },
+    {
+      title: "JobPlay",
+      description: "Product Description",
+      imgUrl: imageSix,
+      githubLink: "https://github.com/luisdaniel0/Jobplay-FE",
+      demoLink: "https://jobplay.netlify.app/"
     },
   ]
 
