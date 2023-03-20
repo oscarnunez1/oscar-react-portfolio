@@ -12,11 +12,11 @@ import mongoDB from "../assets/icons/mongodb.svg"
 import sequelize from "../assets/icons/sequelize.svg"
 import bootstrap from "../assets/icons/bootstrap.svg"
 import git from "../assets/icons/git.svg"
+import redux from "../assets/icons/redux.svg"
 
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -51,7 +51,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={express} alt="express-icon" />
-                  <h5>Express.JS</h5>
+                  <h5>Express</h5>
                 </div>
                 <div className="item">
                   <img src={react} alt="react-icon" />
@@ -59,7 +59,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={nodeJs} alt="nodejs-icon" />
-                  <h5>Node.JS</h5>
+                  <h5>Node</h5>
                 </div>
                 <div className="item">
                   <img src={typescript} alt="typescript-icon" />
@@ -88,6 +88,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={git} alt="git-icon" />
                   <h5>Git</h5>
+                </div>
+                <div className="item">
+                  <img src={redux} alt="redux-icon" />
+                  <h5>Redux</h5>
                 </div>
               </Carousel>
             </div>
